@@ -1,0 +1,81 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'MedievalSharp', cursive;
+}
+
+h1 {
+    font-family: 'MedievalSharp', cursive;
+    margin: 0;
+    font-size: 60px;
+    color: rgba(255, 232, 132, 1);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: 5px solid rgba(255, 232, 132, 0.7);
+    text-align: center;
+}
+
+h1 span{
+    font-size: 0.2em;
+    line-height: 30px;
+}
+
+button {
+}
+
+button:hover {
+}
+
+.bg {
+    height: 100%;
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.join {
+    margin-top: 500px;
+    color: rgba(255, 232, 132, 1);
+    font-size: 30px;
+}
+
+.submit {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 232, 132, 1);
+    background-image: url(../img/w_icon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:2px solid orange;
+    border-radius: 500px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+/*ANIMATIONS*/
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
