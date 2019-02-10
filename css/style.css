@@ -31,7 +31,7 @@ button:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
+    text-align: center !important;
 }
 
 .join {
