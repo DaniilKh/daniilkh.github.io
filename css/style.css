@@ -60,6 +60,14 @@ button:hover {
     perspective: 1000px;
 }
 
+/*FIXS*/
+
+#mc_embed_signup {
+    width: 121px;
+    margin: 0 auto;
+}
+
+
 /*ANIMATIONS*/
 
 @keyframes shake {
